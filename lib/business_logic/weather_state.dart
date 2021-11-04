@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:weather_app/weathermodel.dart';
+import 'package:weather_app/data/models/weathermodel.dart';
 
 @immutable
 abstract class WeatherState {

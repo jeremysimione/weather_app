@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
-import 'package:weather_app/network.dart';
-import 'package:weather_app/weather_state.dart';
-import 'package:weather_app/weathermodel.dart';
+import 'package:weather_app/data/repository/network.dart';
+import 'package:weather_app/business_logic/weather_state.dart';
+import 'package:weather_app/data/models/weathermodel.dart';
 
 class WeatherCubit extends Cubit<WeatherState> {
   final Network _weatherRepository;
